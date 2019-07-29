@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #3b5998;
+    border-bottom: 1px solid #133783;
+    background-image: linear-gradient(#4e69a2, #3b5998 50%);
+    min-height: 82px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #fff;
+}
+
+.container-1 {
+    max-width: 980px;
+    height: 82px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yE/r/UwR3JChKhJh.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 170px;
+    height: 34px;
+    margin-top: 17px;
+    cursor: pointer;
+}
+
+.formulary {
+    display: flex;
+}
+
+.input-email, .input-senha {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+}
+
+.input-email input, .input-senha input {
+    width: 150px;
+    height: 23px;
+    border: solid 1px black;
+}
+
+.labelinput {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 5px;      
+}
+
+.linkpassword {
+    padding-top: 4px;
+    color: #9cb4d8;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.linkpassword:hover {
+    text-decoration: underline;
+}
+
+.inputbtn {
+    width: 50px;
+    height: 20px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+
+    background-color: #4267b2;
+    border-color: #29487d;
+    border-width: 1px;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 2px 6px;
+    cursor: pointer;
+}
+
+.inputbtn:hover {
+    background-color: #365899;
+    border-color: #29487d;
+}
+
+
+.main {    
+    font-family: Helvetica, Arial, sans-serif;
+    background: linear-gradient(white, #D3D8E8);
+
+}
+
+.container-2 {
+    max-width: 980px;
+    height: 580px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.text-img p {
+    width: 450px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0e385f;    
+    line-height: 29px;
+    margin-top: 40px;
+    width: 450px;
+    word-spacing: -1px;
+}
+
+.text-register {
+    padding: 25px 0;
+    color: #333;
+}
+
+.p1 {
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.p2 {
+    font-size: 19px;
+}
+
+.input-name {
+    padding-bottom: 10px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.input-tel, input-senha2 {
+    padding-bottom: 10px;
+}
+
+.input-name input {
+    width: 195px; 
+    height: 40px;
+    padding: 8px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    border: 1px solid #ccd0d5;
+}
+
+
+.input-tel input, .input-senha2 input {
+    width: 400px;
+    height: 40px;
+    padding: 8px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    border: 1px solid #ccd0d5;
+}
+
+.input-date label {
+    color: #90949c;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.input-date {
+    padding: 15px 0;
+}
+
+.dropdown-date select {
+    width: 64px;
+    height: 30px;
+    padding: 5px;
+}
+
+.dropdown-date {
+    padding-top: 10px;
+    display: flex;
+}
+
+.input-genero-checkbox {
+    padding-top: 10px;
+}
+
+.input-genero label {
+    color: #90949c;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.input-genero-checkbox label {
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 0 10px 0 3px;
+}
+
+.input-terms {
+    width: 320px;
+    font-size: 11px;
+    padding: 10px 0px;
+    color: #777;
+}
+
+.input-terms a {
+    text-decoration: none;
+    color: #385898;
+}
+
+.inputbtnregister input {
+    width: 194px;
+    height: 39px;
+    margin: 10px 0px;
+    padding: 7px 20px;
+    font-size: 19px;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+}
+
+.inputbtnregister input:hover {
+    background: linear-gradient(#578843, #67ae55);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+}
+
+.link-create-page {
+    width: 400px;
+    height: 33px;
+    border-top: 1px solid #dddfe2;
+    color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+
+.link-create-page a {
+    text-decoration: none;
+    color: #385898;
+}
+
+.footer {
+    width: 980px;
+    height: 50px;   
+    margin: 0 auto;
+}
+
+.footer p {
+    font-family: Helvetica,
+    Arial,
+    sans-serif;
+    font-size: 11px;
+    color: #737373;
+    text-align: center;
+    padding: 20px 0px 0px;
+}
